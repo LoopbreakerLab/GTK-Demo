@@ -7,8 +7,8 @@
 #include "MainWindow.h"
 
 MainWindow::MainWindow() {
-    set_border_width(0);
-    set_default_size(800, 600);
+    set_border_width(DEFAULT_BORDER_WIDTH);
+    set_default_size(DEFAULT_WINDOW_WIDTH, DEFAULT_WINDOW_HEIGHT);
 
     mainBox = Gtk::Box(Gtk::ORIENTATION_VERTICAL);
     add(mainBox);

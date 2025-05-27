@@ -19,6 +19,11 @@ protected:
     void on_about();
 
 private:
+    // Window constants
+    static constexpr int DEFAULT_WINDOW_WIDTH = 800;
+    static constexpr int DEFAULT_WINDOW_HEIGHT = 600;
+    static constexpr int DEFAULT_BORDER_WIDTH = 0;
+
     // Main Layout
     Gtk::Box mainBox;
     Gtk::MenuBar menuBar;
